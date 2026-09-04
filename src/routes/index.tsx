@@ -187,8 +187,8 @@ function Gallery() {
       {/* Main image with hover zoom */}
       <div className="group order-1 flex-1 overflow-hidden rounded-2xl border border-border bg-cream lg:order-2">
         <img
-          src={GALLERY[active].src}
-          alt={GALLERY[active].alt}
+          src={GALLERY[active]!.src}
+          alt={GALLERY[active]!.alt}
           width={1024}
           height={1024}
           fetchPriority="high"
