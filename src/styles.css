@@ -28,12 +28,21 @@
   --radius-4xl: calc(var(--radius) + 16px);
   --font-display: "Cormorant Garamond", Georgia, serif;
   --font-body: "Jost", ui-sans-serif, system-ui, sans-serif;
+  --font-script: "Italianno", "Cormorant Garamond", cursive;
+  --color-navy: var(--navy);
+  --color-peach: var(--peach);
+  --color-shell: var(--shell);
+  --color-sand: var(--sand);
+  --color-rust: var(--rust);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
   --color-gold: var(--gold);
   --color-gold-deep: var(--gold-deep);
   --color-gold-soft: var(--gold-soft);
   --color-royal: var(--royal);
   --color-royal-deep: var(--royal-deep);
   --color-cream: var(--cream);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
